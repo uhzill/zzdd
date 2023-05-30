@@ -1,0 +1,78 @@
+/* CSS Works */
+
+.work {
+    display: flex;
+    flex-direction: column;
+    width: 86vw;
+    margin: 0 auto;
+}
+
+.work h2 {
+    font-size: min(8vw, 100px);
+    line-height: 10vw;
+}
+
+.work_area{
+    overflow: auto;
+    width: 90vw;
+    height: 600px;
+    /* border: 1px solid red; */
+}
+
+.work_wrap{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+}
+
+.work_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    height: 450px;
+    margin: 10px;
+    padding: 20px 25px;
+    background-color: #ffffff90;
+    box-shadow: 0 0 15px 5px #ddd;
+}
+
+.work_img{
+    width: 250px;
+    height: 250px;
+}
+
+.work_box h3{
+    width: 100%;
+    font-size: 40px;
+    font-weight: 400;
+}
+.work_title_area{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.work_title p{
+    font-size: 20px;
+}
+.work_title h4{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.veiw_btn a { 
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-decoration: underline;
+}
+
+.veiw_btn a:hover{
+    transition: .5s;
+    color:#1E82D9;
+    text-decoration-color: #1E82D9;
+}
